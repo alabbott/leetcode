@@ -8,3 +8,5 @@ class Solution:
             complement = target - num
             hash_map[complement] = index
             index += 1
+        
+        return []
